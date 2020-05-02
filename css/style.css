@@ -1,0 +1,70 @@
+.cust_h{
+	display: inline;
+}
+
+.cust_a{
+	display: block;
+}
+
+.cust_h_a{
+	display: inline-block;
+}
+
+/* We can write margin in CSS in 5 ways.
+   1.margin: 100px; (top+right+bottom+left - all sides same margin with 1 value)
+   2.margin: 100px 50px; (top+bottom , left+right)
+   3.margin: 100px 50px 70px; (top, left+right ,bottom)
+   4.margin: 100px 50px 70px 90px; (top,right,bottom,left)
+   5.mention specific side(margin-top,margin-right,margin-bottom,margin-left).
+*/
+
+.box{
+	width: 150px;
+	height: 150px;
+}
+
+.box1{
+	background-color: rgb(70,130,180);
+	margin: 100px 0 50px 100px;
+}
+.box2{
+	background-color: rgb(160,82,45);
+	margin: 50px 100px;
+}
+
+/* We can write padding in CSS in 5 ways.
+   1.padding: 100px; (top+right+bottom+left - all sides same padding with 1 value)
+   2.padding: 100px 50px; (top+bottom , left+right)
+   3.padding: 100px 50px 70px; (top, left+right ,bottom)
+   4.padding: 100px 50px 70px 90px; (top,right,bottom,left)
+   5.mention specific side(padding-top,padding-right,padding-bottom,padding-left).
+*/
+
+.box3{
+	background-color: rgb(255,69,0);
+	margin: 50px auto;
+	padding: 0 50px;
+}
+.box4{
+	background-color: rgb(178,34,34);
+	margin: 50px auto;
+	padding-bottom: 50px;
+}
+
+/*box model concept*/
+
+.box5{	
+	background-color: #808000;
+	margin: 100px auto 50px;
+	padding: 40px;
+	border-width: 5px 0;
+	border-style: solid;
+	border-color: purple;
+}
+.box6{
+	background-color: #006400;
+	margin: 50px auto;
+	padding: 40px;
+	border: 7px dashed purple;
+
+}
